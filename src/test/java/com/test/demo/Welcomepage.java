@@ -12,7 +12,7 @@ public class Welcomepage {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://demo.iecho.org");
-		driver.close();
+		
 		driver.quit();
 	} 
 	
