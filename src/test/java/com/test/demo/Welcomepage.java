@@ -13,7 +13,7 @@ public class Welcomepage {
 		
 		driver.get("https://demo.iecho.org");
 		
-		driver.quit();
+		//driver.quit();
 	} 
 	
 }
