@@ -7,13 +7,23 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Welcomepage {
 
-	public static void main(String[] args) {
-		WebDriverManager.chromedriver().setup();
-		WebDriver driver = new ChromeDriver();
+	public void testApp() throws MalformedURLException 
+	{
 		
-		driver.get("https://demo.iecho.org");
+		DesiredCapabilities cap = new DesiredCapabilities();
+		cap.setCapability(ChromeOptions.CAPABILITY, DesiredCapabilities.chrome());
 		
-		//driver.quit();
-	} 
+		WebDriver driver = new RemoteWebDriver(new URL("https://qaelb.test.metaecho.com/wd/hub"), cap);
+		
+//		DesiredCapabilities cap = new DesiredCapabilities();
+//		cap.setBrowserName(BrowserType.CHROME);
+//		driver = new RemoteWebDriver(new URL("https://qaelb.test.metaecho.com/wd/hub"), cap);
+//		
+		driver.get("https://demo.iecho.org/welcome");
+		
+		driver.quit();
+		
+	}
+
 	
 }
