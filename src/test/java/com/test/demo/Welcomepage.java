@@ -20,7 +20,7 @@ public class Welcomepage {
 //		driver = new RemoteWebDriver(new URL("https://qaelb.test.metaecho.com/wd/hub"), cap);
 //		
 		driver.get("https://demo.iecho.org/welcome");
-		
+		System.out.println(driver.getTitle());
 		driver.quit();
 		
 	}
