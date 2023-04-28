@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.test.demo.combine">
+      <class name="com.test.demo.DockerSelenium">
         <methods>
           <include name="setup"/>
           <include name="loadConfig"/>
         </methods>
-      </class> <!-- com.test.demo.combine -->
+      </class> <!-- com.test.demo.DockerSelenium -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

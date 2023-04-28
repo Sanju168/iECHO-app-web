@@ -12,15 +12,6 @@ import org.testng.annotations.Test;
 
 public class ChromeDD {
 	public static WebDriver driver;
-
-
-
-
-
-
-
-
-
 	
 	@Test
 	public void testApp() throws MalformedURLException 

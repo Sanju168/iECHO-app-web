@@ -12,19 +12,12 @@ import com.iEcho.base.Base;
 
 @Test
 public class combine extends Base{
-	Action action = new Action();
-	@FindBy(xpath = "//button[@id='language-selection-submit-btn']")
-	WebElement languageSelection;
-	
-	public combine() {
-		PageFactory.initElements(driver, this);
-
-	}
-	
 	
 	
 	public void setup() throws MalformedURLException {
 		
 		launchApp();
 	}
+	
+
 }
