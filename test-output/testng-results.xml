@@ -2,20 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-04-27T18:01:39 IST" name="Default suite" finished-at="2023-04-27T18:02:32 IST" duration-ms="52523">
+  <suite started-at="2023-05-17T11:42:15 IST" name="Default suite" finished-at="2023-05-17T11:42:43 IST" duration-ms="27719">
     <groups>
     </groups>
-    <test started-at="2023-04-27T18:01:39 IST" name="Default test" finished-at="2023-04-27T18:02:32 IST" duration-ms="52523">
-      <class name="com.test.demo.DockerSelenium">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.test.demo.DockerSelenium@6f27a732]" started-at="2023-04-27T18:01:39 IST" name="loadConfig" finished-at="2023-04-27T18:01:39 IST" duration-ms="30" status="PASS">
+    <test started-at="2023-05-17T11:42:15 IST" name="Default test" finished-at="2023-05-17T11:42:43 IST" duration-ms="27719">
+      <class name="com.test.demo.InviteHubTest">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.test.demo.InviteHubTest@6a6afff2]" started-at="2023-05-17T11:42:15 IST" name="loadConfig" finished-at="2023-05-17T11:42:15 IST" duration-ms="19" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method signature="setup()[pri:0, instance:com.test.demo.DockerSelenium@6f27a732]" started-at="2023-04-27T18:01:39 IST" name="setup" finished-at="2023-04-27T18:02:32 IST" duration-ms="52457" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.test.demo.InviteHubTest@6a6afff2]" started-at="2023-05-17T11:42:15 IST" name="setup" finished-at="2023-05-17T11:42:26 IST" duration-ms="10679" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-      </class> <!-- com.test.demo.DockerSelenium -->
+        <test-method signature="managehubclick()[pri:0, instance:com.test.demo.InviteHubTest@6a6afff2]" started-at="2023-05-17T11:42:26 IST" name="managehubclick" finished-at="2023-05-17T11:42:43 IST" duration-ms="16982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- managehubclick -->
+      </class> <!-- com.test.demo.InviteHubTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
